@@ -48,7 +48,7 @@
     shapeElement.style.opacity=0.9;
     switch(lowShapeName){
       case 'circle':
-        shapeElement.style.background = `radial-gradient(circle at 50px 50px,${colour1}, #111`;
+        shapeElement.style.background = `radial-gradient(circle at 50px 50px,${colour1}, ${colour2}`;
         shapeElement.style.width = `${size3}px`;
         shapeElement.style.height = `${size3}px`;
         shapeElement.style.borderRadius = '50%';
